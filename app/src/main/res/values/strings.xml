@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Math</string>
+    <string name="heading">Математика</string>
+    <string name="summation">Сложение</string>
+    <string name="subtracting">Вычитание</string>
+    <string name="multiplication">Умножение</string>
+    <string name="division">Деление</string>
+    <string name="start">Начать</string>
+    <string name="buttonNumber1">1</string>
+    <string name="buttonNumber2">2</string>
+    <string name="buttonNumber3">3</string>
+    <string name="buttonNumber4">4</string>
+    <string name="buttonNumber5">5</string>
+    <string name="buttonNumber6">6</string>
+    <string name="buttonNumber7">7</string>
+    <string name="buttonNumber8">8</string>
+    <string name="buttonNumber9">9</string>
+    <string name="buttonNumber0">0</string>
+    <string name="buttonDelete">DEL</string>
+    <string name="buttonResult">=</string>
+</resources>

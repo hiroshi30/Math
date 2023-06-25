@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/heading"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageSummation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHeading"
+        app:srcCompat="@drawable/summation" />
+
+    <TextView
+        android:id="@+id/textSummation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/summation"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imageSummation"
+        app:layout_constraintTop_toTopOf="@+id/imageSummation" />
+
+    <ImageView
+        android:id="@+id/imageSubtracting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/imageSummation"
+        app:layout_constraintTop_toBottomOf="@+id/imageSummation"
+        app:srcCompat="@drawable/subtracting" />
+
+    <TextView
+        android:id="@+id/textSubtracting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/subtracting"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imageSubtracting"
+        app:layout_constraintTop_toTopOf="@+id/imageSubtracting" />
+
+    <ImageView
+        android:id="@+id/imageMultiplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/imageSubtracting"
+        app:layout_constraintTop_toBottomOf="@+id/imageSubtracting"
+        app:srcCompat="@drawable/multiplication" />
+
+    <TextView
+        android:id="@+id/textMultiplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/multiplication"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imageMultiplication"
+        app:layout_constraintTop_toTopOf="@+id/imageMultiplication" />
+
+    <ImageView
+        android:id="@+id/imageDivision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/imageMultiplication"
+        app:layout_constraintTop_toBottomOf="@+id/imageMultiplication"
+        app:srcCompat="@drawable/division" />
+
+    <TextView
+        android:id="@+id/textDivision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/division"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imageDivision"
+        app:layout_constraintTop_toTopOf="@+id/imageDivision" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchSummation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageSummation" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchSubtracting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageSubtracting" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchMultiplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageMultiplication" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchDivision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageDivision" />
+
+    <ImageButton
+        android:id="@+id/buttonSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/settings" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="240dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#FF0000"
+        android:text="@string/start"
+        android:textSize="20sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Math" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Switch">
+        <item name="android:thumb">@color/black</item>
+        <item name="thumbTint">@color/red</item>
+        <item name="track">@color/red</item>
+        <item name="trackTint">@color/red</item>
+    </style>
+
+    <style name="Theme.Math" parent="Base.Theme.Math" />
+</resources>
