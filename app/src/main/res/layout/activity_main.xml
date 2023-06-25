@@ -150,7 +150,7 @@
         android:layout_width="240dp"
         android:layout_height="53dp"
         android:layout_marginBottom="80dp"
-        android:backgroundTint="#FF0000"
+        android:backgroundTint="@color/red"
         android:text="@string/start"
         android:textSize="20sp"
         app:cornerRadius="12dp"

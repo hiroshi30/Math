@@ -18,4 +18,6 @@
     <string name="buttonNumber0">0</string>
     <string name="buttonDelete">DEL</string>
     <string name="buttonResult">=</string>
+    <string name="correct">Правильно</string>
+    <string name="incorrect">Неправильно</string>
 </resources>
